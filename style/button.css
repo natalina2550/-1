@@ -1,0 +1,22 @@
+.triangle {
+  border-left: 20px solid #fff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  cursor: pointer;
+  display: inline;
+}
+.button {
+  width: 171px;
+  height: 57px;
+  background-color: #3a68b8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+.button__triangle {
+  width: 217px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

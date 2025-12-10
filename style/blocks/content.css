@@ -1,0 +1,29 @@
+.content{
+ display: flex;
+ justify-content: center;
+ padding-top: 160px;
+ gap: 120px;
+}
+.content__inner-info-subtitle{
+font-size: 18px;
+color:#3A68B8;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.content__inner-info-title{
+    font-size:  55px; 
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px;
+
+}
+.content__inner-info-text{
+    font-size: 18px;
+    opacity: 70%;
+    margin-bottom: 50px;
+}
+.content__inner-button{
+    display: flex;
+    gap: 20px;
+}
+
