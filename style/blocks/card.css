@@ -1,0 +1,15 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+    height: 1227px;
+    width: 1146px;
+}
+.card__item{
+    background-color: #132035;
+}
+.card__item-large{
+    grid-column: span 2;
+    grid-row: span 2;
+}
