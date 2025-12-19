@@ -2,6 +2,10 @@
 .header {
   height: 100px;
   background-color: #0A111F;
+  position: sticky;
+  top:0;
+  z-index: 100;
+  box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
   
 }
 .header__nav-list {
@@ -32,7 +36,7 @@
 .header__nav-list a:nth-child(5):hover {
   color: orange;
 }
-.header__nav-list-item{
+.header__nav-list-item:hover{
   text-decoration: underline;
 
 }

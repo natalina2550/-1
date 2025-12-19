@@ -3,9 +3,12 @@
   justify-content: center;
   padding-top: 160px;
   gap: 120px;
+  width: 1146px;
+  margin: 0 auto;
 }
 .content-gap{
   gap: 67px;
+  
 }
 .content__inner-info-subtitle {
   font-size: 18px;
@@ -32,9 +35,22 @@
 .content__inner-info-title-small {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 30px;
-  padding-top: 117px;
+  margin-bottom: 40px;
+  
+ 
 }
 .content__inner-info-text-small {
   font-size: 16px;
 }
+.content__inner-info-title-indent{
+  padding-top: 117px;
+}
+.content__inner-info-small{
+  width: 548px;
+  height: 464px;
+  gap: 20px;
+ 
+
+}
+
+

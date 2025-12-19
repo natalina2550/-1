@@ -1,0 +1,14 @@
+.footer{
+    margin:221px auto 0; 
+    width: 1146px; 
+    display: flex;
+    gap: 30px;
+}
+.footer__inner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 48  296 auto;
+align-items: center;
+
+}
