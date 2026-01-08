@@ -41,6 +41,8 @@
 }
 .content__inner-info-text-small {
   font-size: 16px;
+  margin-bottom: 25px;
+
 }
 .content__inner-info-title-indent{
   padding-top: 117px;
@@ -51,6 +53,17 @@
   gap: 20px;
  
 
+}
+.content-small-gap{
+  gap: 30px;
+  
+
+}
+@media( max-width:1170px){
+  .content{
+    flex-direction: column;
+    width: 767px;
+  }
 }
 
 

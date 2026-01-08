@@ -11,7 +11,7 @@
 .header__nav-list {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: clamp(16px,3vw,40px);
 }
 .header__nav {
   padding-top: 39px;
@@ -40,3 +40,10 @@
   text-decoration: underline;
 
 }
+@media(max-width:375px){
+  .header{
+    font-size: 14px;
+  }
+
+}
+

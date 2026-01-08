@@ -3,12 +3,41 @@
     width: 1146px; 
     display: flex;
     gap: 30px;
+    padding: 48px 0;
 }
 .footer__inner{
 display: flex;
 flex-direction: column;
-justify-content: center;
-margin: 48  296 auto;
-align-items: center;
+width: 362px;
 
 }
+
+.footer__inner-list__item{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer__inner-list__item img{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top:5px;
+}
+
+.footer-title{
+ padding-bottom: 33px;
+}
+.footer-text{
+ opacity:50%;
+ font-size: 14px;
+ font-weight: 100;
+}
+.footer__inner__logos{
+padding-top:24px;
+display: flex;
+gap: 24px;
+
+}
+
