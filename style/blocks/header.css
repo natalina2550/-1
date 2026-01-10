@@ -1,31 +1,32 @@
-
 .header {
   height: 100px;
   background-color: #0A111F;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 100;
   box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
-  
+
 }
+
 .header__nav-list {
   display: flex;
   justify-content: center;
-  gap: clamp(16px,3vw,40px);
+  gap: clamp(16px, 3vw, 40px);
 }
+
 .header__nav {
   padding-top: 39px;
 }
 
- .header__nav-list a:nth-child(1):hover {
-  color: red; 
+.header__nav-list a:nth-child(1):hover {
+  color: red;
 }
 
 .header__nav-list a:nth-child(2):hover {
   color: blue;
 }
 
-.header__nav-list a:nth-child(3):hover  {
+.header__nav-list a:nth-child(3):hover {
   color: green;
 }
 
@@ -36,14 +37,15 @@
 .header__nav-list a:nth-child(5):hover {
   color: orange;
 }
-.header__nav-list-item:hover{
+
+.header__nav-list-item:hover {
   text-decoration: underline;
 
 }
-@media(max-width:375px){
-  .header{
+
+@media(max-width:375px) {
+  .header {
     font-size: 14px;
   }
 
 }
-
