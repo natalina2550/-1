@@ -1,20 +1,10 @@
-.logos{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+.logos {
+    display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
     margin-top: 197px;
-    gap: 72px; 
+    gap: 72px;
     justify-content: center;
     padding-bottom: 99px;
-     max-width: 1146px;
-   
-
-}
-@media( max-width:849px) {
-    .logos{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2,1fr);
-        gap: 32px;
-    }
-    
+    width: clamp(343px, 75vw, 1149px);
 }
